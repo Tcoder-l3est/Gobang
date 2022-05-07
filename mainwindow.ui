@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>628</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionYes">
+   <property name="text">
+    <string>YES</string>
+   </property>
+  </action>
+  <action name="actionNO">
+   <property name="text">
+    <string>NO</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>PVP</string>
+   </property>
+  </action>
+  <action name="actionPVE">
+   <property name="text">
+    <string>PVE</string>
+   </property>
+  </action>
+  <action name="actionEVE">
+   <property name="text">
+    <string>EVE</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
